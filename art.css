@@ -1,0 +1,276 @@
+body{
+  background: #d3ceba;
+  margin: 0px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}
+
+h2{
+  font-size: 25px;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}
+
+h3{
+  font-size: 13px;
+  font-family: 'Shippori Antique', sans-serif;
+  color: white;
+}
+
+/*ul*/
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 3px;
+  width: 100%;
+  background: #7F41EC;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  height: 80px;
+  transition: ease-out 0.3s;
+}
+
+/*list li */
+
+li{
+ margin: 0.5em;
+ padding: 0.5em;
+ font-size: 15px;
+ font-family:'Rock Salt', cursive;
+ font-weight: bold;
+ border-radius: 60px;
+ color: white;
+}
+
+/*list HOVER */
+li:hover{
+  background-image: url("../images/Bgbox1wireframetest.png");
+  background-size: cover;
+  font-style: italic;
+}
+
+@media all and (max-width: 600px) {
+ li,li:hover{
+   font-size: 10px;
+   justify-content: space-around;
+ }
+}
+
+a, a:hover, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+ }
+/*ul*/
+
+
+.header{
+  height: 400px;
+  width: 100%;
+  background-image: url("../images/Bgbox2wireframetest.png");
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/*--------wrappers------------*/
+
+
+.wrapper{
+  display: flex;
+  flex-flow:row wrap;
+  text-align: center;
+}
+.wrapper>*{
+  padding: 10px;
+  margin: 50px;
+  flex: 1 100%;
+}
+
+.main{
+  text-align: center;
+  height: 400px;
+  font-size: 24px;
+}
+
+.aside1{
+  height: 400px;
+}
+
+.aside2{
+  height: 400px;
+}
+
+.aside3{
+  height: 400px;
+}
+
+@media all and (min-width: 800px){
+  .main{
+    flex:1;
+  }
+
+  .aside1{
+    order: 1;
+  }
+
+  .aside2{
+    order:2;
+  }
+
+  .aside3{
+    order:2;
+  }
+
+  .main{
+    order: 2;
+  }
+
+  .footer{
+    order:4
+  }
+}
+
+@media all and (min-width:600px){
+  .aside{
+    flex:1;
+  }
+}
+
+
+/*new*/
+.bain{
+  height: 400px;
+}
+
+.bside1{
+  height:400px;
+  transition: ease-out 0.3s;
+}
+
+.bside2{
+  height:400px;
+}
+
+.bside3{
+  height:400px;
+}
+
+@media all and (min-width: 800px){
+  .bain{
+    flex:1;
+  }
+
+  .bside1{
+    order: 1;
+  }
+
+  .bside2{
+    order:2;
+  }
+
+  .bside3{
+    order:2;
+  }
+
+  .bain{
+    order: 2;
+  }
+}
+
+@media all and (min-width:600px){
+  .bside{
+    flex:1;
+  }
+}
+
+
+.pic{
+  height: 400px;
+  width: 300px;
+  position: relative;
+  align-items: center;
+  margin-top: 2px;
+  margin-left: 10px;
+
+}
+
+.text{
+  height: 200px;
+  width: 270px;
+  position: absolute;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  margin-left: 20px;
+  margin-top: -300px;
+  font-size: 10px;
+  opacity: 0;
+}
+
+.text:hover{
+  height: 200px;
+  width: 270px;
+  position: absolute;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background: #8889d3;
+  margin-left: 25px;
+  margin-top: -300px;
+  font-size: 10px;
+  opacity: 1;
+}
+
+.footer{
+  background: #7F41EC;
+  height: 80px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+.backtotop{
+  width: 100px;
+  height: 30px;
+  background: #a7a8f2;
+  font-size: 12px;
+  font-family: 'Yeseva One', cursive;
+  color: white;
+  border-radius: 10px;
+  transition: ease-out 0.3s;
+  position: relative;
+  margin-top: 25px;
+  margin-right: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  display: flex;
+}
+
+.backtotop:hover{
+  background-image: url("../images/Bgbox2wireframetest.png");
+  background-size: cover;
+  width:110px;
+  box-shadow: 5px 5px 10px black;
+  color: white;
+  font-weight: bold;
+}
