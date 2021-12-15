@@ -293,12 +293,11 @@ a, a:hover, a:visited, a:active {
   border-radius: 10px;
   box-shadow: 5px 5px 10px black;
   }
-}
 
 
 
 a{
-  font-style: none;
+  font-style: normal;
 }
 
 .backtotop{

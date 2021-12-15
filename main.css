@@ -459,7 +459,7 @@ a, a:hover, a:visited, a:active {
 
 /*maindesc*/
 .maindesc{
-  height:200;
+  height:200px;
   width: 500px;
   position: absolute;
   transition: ease-out 0.3s;
@@ -544,7 +544,6 @@ a, a:hover, a:visited, a:active {
    width: 200px;
    height: 30px;
    justify-content: space-around;
-   align-items: left;
    font-size: 20px;
    margin-left: 10px;
    display: flex;
