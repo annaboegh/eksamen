@@ -53,7 +53,7 @@ li{
 
 /*list HOVER */
 li:hover{
-  background-image: url("../images/Bgbox1wireframetest.png");
+  background-image: url("../images/swirlbg.png");
   background-size: cover;
   font-style: italic;
 }
@@ -75,7 +75,7 @@ a, a:hover, a:visited, a:active {
 .header{
   height: 400px;
   width: 100%;
-  background-image: url("../images/Bgbox2wireframetest.png");
+  background-image: url("../images/heartbg.png");
   background-size: cover;
   display:flex;
   justify-content: center;
